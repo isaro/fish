@@ -4,6 +4,7 @@ go 1.20
 
 require (
 	github.com/bwmarrin/discordgo v0.27.1
+	github.com/davecgh/go-spew v1.1.1
 	github.com/gorilla/mux v1.8.0
 	github.com/sirupsen/logrus v1.9.0
 )
