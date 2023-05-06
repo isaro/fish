@@ -13,6 +13,7 @@ func Fish(s *discordgo.Session, i *discordgo.InteractionCreate) {
 			Content: "Fish!",
 		},
 	}
+	//TODO: Roll a random fish from the available fish, save that caught fish under the user that caught it.
 
 	// send the response to Discord
 	err := s.InteractionRespond(i.Interaction, response)
